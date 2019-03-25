@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        map:cameraTargetLat="31.662194"
+        map:cameraTargetLng="-106.388117"
+        map:cameraTilt="30"
+        map:cameraZoom="17"
+        map:mapType="normal"
+        tools:context=".MapsActivity" />
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.user.parkingreservation.view.ParkingFragment"
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+
+        />
+
+</FrameLayout>
+

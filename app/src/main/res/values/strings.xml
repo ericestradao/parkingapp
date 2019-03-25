@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ParkingReservation</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="search">Search</string>
+    <string name="parking_app">PARKING APP</string>
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+</resources>
